@@ -1,4 +1,32 @@
-# sv
+# Multi-page SvelteKit Application
+
+This demo showcases a multi‑page SvelteKit app with routing, layout, and basic page components. It serves as a starting point for building more complex SvelteKit projects.
+
+## Features
+- Multiple pages using SvelteKit file‑system routing
+- Shared layout component with navigation links
+- Simple example components demonstrating reactivity and styling
+
+## Getting Started
+
+```bash
+cd "1.Multi-page SvelteKit Application"
+# Install dependencies (npm is default; use pnpm if pnpm‑lock.yaml exists)
+npm install
+npm run dev
+```
+
+Open the app at `http://localhost:5173` (or the displayed port). Navigate between the example pages using the menu.
+
+## Development
+
+- Add new routes by creating `.svelte` files under `src/routes`.
+- Edit the shared layout in `src/routes/+layout.svelte`.
+
+## Contributing
+
+Feel free to extend the demo with additional pages, components, or styling.
+
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 

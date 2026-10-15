@@ -1,4 +1,33 @@
-# sv
+# HTTP API Consumption
+
+A SvelteKit demo that illustrates how to fetch data from external HTTP APIs and display it within the app. It includes example endpoints and shows handling of loading states and errors.
+
+## Features
+- Fetch data from a public API using `fetch`
+- Display results with reactive Svelte components
+- Show loading indicators and error handling
+- Simple UI layout for demonstrating API data
+
+## Getting Started
+
+```bash
+cd "3.HTTP API Consumption"
+# Install dependencies (npm is default; use pnpm if a pnpm-lock.yaml exists)
+npm install
+npm run dev
+```
+
+Open the app at `http://localhost:5173` to see the API demonstration.
+
+## Development
+
+- Replace the placeholder API URL in `src/routes/+page.svelte` with your own endpoint.
+- Add additional fetch calls or integrate auth headers as needed.
+
+## Contributing
+
+Feel free to expand this demo with more complex data handling, pagination, or caching strategies.
+
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 

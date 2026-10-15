@@ -1,4 +1,35 @@
-# sv
+# User Management CRUD
+
+A simple SvelteKit demo that implements basic Create, Read, Update, and Delete (CRUD) operations for managing a list of users. The data is stored locally in memory for demonstration purposes.
+
+## Features
+- List users with pagination
+- Add new users via a form
+- Edit existing user details
+- Delete users with confirmation
+- Demonstrates form handling and state management in SvelteKit
+
+## Getting Started
+
+```bash
+cd "2.User Management CRUD"
+# Install dependencies (npm is default; use pnpm if a pnpm-lock.yaml exists)
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173` to see the user management interface.
+
+## Development
+
+- Modify the mock data in `src/lib/mockData.js`.
+- Add real API integration by replacing the local store with fetch calls.
+- Extend the UI with additional user fields and validation.
+
+## Contributing
+
+Feel free to enhance this demo with persistent storage, authentication, or more advanced UI features.
+
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
